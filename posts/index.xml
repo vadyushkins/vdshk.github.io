@@ -26,14 +26,14 @@ It was very interesting to describe step-by-step how this algorithm works in a c
 <p>The main result of my work is the
 <a href="https://networkx.org/nx-guides/content/algorithms/dag/index.html#">topological sort tutorial</a>.</p>
 <ul>
-<li>Corresponding <strong>merged PR:</strong>
+<li>✅ Corresponding <strong>merged PR:</strong>
 <a href="https://github.com/networkx/nx-guides/pull/44">[GSoC contribution] Topological sort notebook</a>.</li>
 </ul>
 <p>Furthermore, during the work on DAGs module of NetworkX, I opened several PRs with improvements:</p>
 <ul>
-<li><strong>Open PR</strong> to improve code base:
+<li>✅ <strong>Merged PR</strong> to improve code base:
 <a href="https://github.com/networkx/networkx/pull/5017">[GSoC contribution] Improving functions descendants and ancestors in dag.py</a></li>
-<li><strong>Open PR</strong> to improve documentation:
+<li>✅ <strong>Merged PR</strong> to improve documentation:
 <a href="https://github.com/networkx/networkx/pull/5019">[GSoC contribution] Adding examples to docstrings in dag.py</a></li>
 </ul>
 <h1 id="-conclusion">🥳 Conclusion</h1>
