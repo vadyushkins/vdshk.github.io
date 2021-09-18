@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>networkx | Academic</title><link>https://example.com/tag/networkx/</link><atom:link href="https://example.com/tag/networkx/index.xml" rel="self" type="application/rss+xml"/><description>networkx</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 Jul 2021 18:30:54 +0300</lastBuildDate><image><url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>networkx</title><link>https://example.com/tag/networkx/</link></image><item><title>GSoC 2021 Start</title><link>https://example.com/post/gsoc-2021-start/</link><pubDate>Fri, 16 Jul 2021 18:30:54 +0300</pubDate><guid>https://example.com/post/gsoc-2021-start/</guid><description>&lt;h1 id="-summer-2021">🌞 ️Summer 2021&lt;/h1>
+&lt;p>I am happy to have been accepted to
+&lt;a href="https://summerofcode.withgoogle.com/" target="_blank" rel="noopener">Google Summer of Code 2021&lt;/a>
+with the project
+&amp;ldquo;&lt;em>Pedagogical Interactive Notebooks for Algorithms Implemented in &lt;a href="https://networkx.org/" target="_blank" rel="noopener">NetworkX&lt;/a>&lt;/em>&amp;rdquo;.
+I will be writing code under the mentorship of
+&lt;a href="https://github.com/ericmjl" target="_blank" rel="noopener">Eric Ma&lt;/a>
+and
+&lt;a href="https://github.com/rossbar" target="_blank" rel="noopener">Ross Barnowski&lt;/a>.
+The goal of this project is to create Jupyter notebooks that will become detailed and intuitive tutorials
+containing the ideas behind, explanations and experimental analysis of the algorithms
+implemented in NetworkX.&lt;/p>
+&lt;p>Let me tell you about how I got there.&lt;/p>
+&lt;h2 id="-google-summer-of-code">👨‍💻 Google Summer of Code&lt;/h2>
+&lt;p>The Google Summer of Code, often abbreviated to GSoC, is an international annual program
+in which Google awards stipends to students who successfully complete a 10-week
+free and open-source software coding project during their break from school.
+The program is open to university students aged 18 or over.
+The amount of the stipend depends on
+&lt;a href="https://developers.google.com/open-source/gsoc/help/student-stipends" target="_blank" rel="noopener">the purchasing power parity&lt;/a>
+of the country where the student&amp;rsquo;s university is located.
+Project ideas are listed by host organizations involved in open-source software development,
+though students can also propose their own project ideas.&lt;/p>
+&lt;p>This year it has been essential to me not to miss the GSoC,
+so I have written down the estimated dates for the stages that are important for a student.&lt;/p>
+&lt;h3 id="-timeline">⏰ Timeline&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>✅ &lt;strong>Organizations Announced&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> early March &lt;/u>&lt;/p>
+&lt;p>📝 Students can begin discussing project ideas with open source organizations
+that accepted to participate as a mentor organization.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>✅ &lt;strong>Student Application Period&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> end of March — mid-April &lt;/u>&lt;/p>
+&lt;p>📝 Students can register and submit their proposals to mentor organizations.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>✅ &lt;strong>Application Review Period&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> mid-April — mid-May &lt;/u>&lt;/p>
+&lt;p>📝 Mentor organizations review and select student proposals.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>✅ &lt;strong>Student Projects Announced&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> at the end of the review period &lt;/u>&lt;/p>
+&lt;p>📝 Accepted students are paired with a mentor and start planning their projects and milestones.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>The key stage is the &lt;strong>Student Application Period&lt;/strong>.
+That is when you have to figure out which project you want to work on and make a proposal
+for what you are going to do for it during the summer.&lt;/p>
+&lt;p>For those lucky ones, who were accepted, there are a few more important stages.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>✅ &lt;strong>Community Bonding&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> from the moment student projects announced — early June &lt;/u>&lt;/p>
+&lt;p>📝 Students spend a month learning more about their organization&amp;rsquo;s community.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>✅ &lt;strong>Coding, part 1&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> early June — mid-July &lt;/u>&lt;/p>
+&lt;p>📝 Students work on their Google Summer of Code projects.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>✅ &lt;strong>First Evaluations&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> mid-July &lt;/u>&lt;/p>
+&lt;p>📝 Mentors and students submit their evaluations of one another.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>✅ &lt;strong>Coding, part 2&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> mid-July — mid-August &lt;/u>&lt;/p>
+&lt;p>📝 Students work on their Google Summer of Code projects.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>✅ &lt;strong>Final Evaluations&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> mid-August &lt;/u>&lt;/p>
+&lt;p>📝 Students submit their code, project summaries, and final evaluations of their mentors.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>✅ &lt;strong>Results Announced&lt;/strong>&lt;/p>
+&lt;p>📅 &lt;u> end of August &lt;/u>&lt;/p>
+&lt;p>📝 Students are notified of the pass/fail status of their Google Summer of Code projects.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="-my-advice">😎 My advice&lt;/h3>
+&lt;p>The participation process for accepted students can vary from organization to organization.
+And here I have no recommendations for you.&lt;/p>
+&lt;p>By contrast, I have some advice to help you maximize your chance of being accepted into the GSoC.&lt;/p>
+&lt;h4 id="-start-as-early-as-possible">👨‍🏫 &lt;strong>Start as early as possible&lt;/strong>&lt;/h4>
+&lt;p>Contact mentors early!
+The earlier you contact mentors, the earlier you may receive feedback from them
+to improve your proposal and the higher your chance of being accepted will be.&lt;/p>
+&lt;p>The answers of the mentors will make it clear whether it would be comfortable to work with them in the summer.
+It gives you more time to find the right mentor organization.&lt;/p>
+&lt;h4 id="-focus-on-quality">👨‍🏫 &lt;strong>Focus on quality&lt;/strong>&lt;/h4>
+&lt;p>Think about your choice of a project carefully, you are going to be doing it for a couple of months,
+so it is very important that you choose something you are going to enjoy.&lt;/p>
+&lt;p>Make sure you have thought about the project and understood its achievable goals.
+Your application should convince mentors that you are capable of completing the project.
+If you are not sure about anything, get in touch with mentors, they are ready to advise you.&lt;/p>
+&lt;p>The proposal template and examples of accepted proposals from previous years would be very useful to you.
+In my case, I used this proposal
+&lt;a href="https://github.com/numfocus/gsoc/blob/master/templates/proposal.md" target="_blank" rel="noopener">template&lt;/a>
+and
+&lt;a href="https://github.com/numfocus/gsoc/tree/master/2018" target="_blank" rel="noopener">examples&lt;/a>.&lt;/p>
+&lt;p>Remember that after you have been accepted, you can edit your proposal at any time.&lt;/p>
+&lt;h4 id="-show-your-technical-skills">👨‍🏫 &lt;strong>Show your technical skills&lt;/strong>&lt;/h4>
+&lt;p>Create at least one Pull Request before the Student Application Period ends!
+The best way to do this is to close an issue from the project.
+Many projects have issues marked &lt;code>Good First Issue&lt;/code> and closing such type of issue would be a good starting point.&lt;/p>
+&lt;p>Commit early and commit often!
+So that mentors can see and review your work.&lt;/p>
+&lt;p>✌ That is all I wanted to tell you today.
+I hope this post will be useful to you.
+Good luck and have a nice day!&lt;/p></description></item></channel></rss>
