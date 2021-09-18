@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gsoc | Academic</title><link>https://example.com/tag/gsoc/</link><atom:link href="https://example.com/tag/gsoc/index.xml" rel="self" type="application/rss+xml"/><description>gsoc</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 Jul 2021 18:30:54 +0300</lastBuildDate><image><url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>gsoc</title><link>https://example.com/tag/gsoc/</link></image><item><title>GSoC 2021 Start</title><link>https://example.com/post/gsoc-2021-start/</link><pubDate>Fri, 16 Jul 2021 18:30:54 +0300</pubDate><guid>https://example.com/post/gsoc-2021-start/</guid><description>&lt;h1 id="-summer-2021">🌞 ️Summer 2021&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gsoc | Academic</title><link>https://example.com/tag/gsoc/</link><atom:link href="https://example.com/tag/gsoc/index.xml" rel="self" type="application/rss+xml"/><description>gsoc</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Aug 2021 13:43:56 +0300</lastBuildDate><image><url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>gsoc</title><link>https://example.com/tag/gsoc/</link></image><item><title>GSoC 2021 Final</title><link>https://example.com/post/gsoc-2021-final/</link><pubDate>Fri, 20 Aug 2021 13:43:56 +0300</pubDate><guid>https://example.com/post/gsoc-2021-final/</guid><description>&lt;h1 id="-project">🚀 Project&lt;/h1>
+&lt;p>The goal of this project is to create Jupyter notebooks that will become detailed and intuitive tutorials
+containing the ideas behind, explanations and experimental analysis of the algorithms
+implemented in NetworkX.
+I decided to start with a tutorial on directed acyclic graphs (DAGs for short).&lt;/p>
+&lt;p>Under the project, I wrote a tutorial explaining the various concepts of graphs.
+The main ones were
+&lt;a href="https://networkx.org/nx-guides/content/algorithms/dag/index.html#directed-graph" target="_blank" rel="noopener">Directed Graph&lt;/a>
+and
+&lt;a href="https://networkx.org/nx-guides/content/algorithms/dag/index.html#directed-acyclic-graph" target="_blank" rel="noopener">Directed Acyclic Graph&lt;/a>.
+In addition to explanation of the theory,
+I developed examples using NetworkX and found various
+&lt;a href="https://networkx.org/nx-guides/content/algorithms/dag/index.html#applications" target="_blank" rel="noopener">real-world applications&lt;/a>
+of these concepts.&lt;/p>
+&lt;p>Moreover, I wrote about
+&lt;a href="https://networkx.org/nx-guides/content/algorithms/dag/index.html#topological-sort" target="_blank" rel="noopener">topological sort&lt;/a> -
+one of the most basic algorithms for working with DAGs.
+It was very interesting to describe step-by-step how this algorithm works in a clear and comprehensible manner.&lt;/p>
+&lt;p>You can read about it in details
+&lt;a href="https://networkx.org/nx-guides/content/algorithms/dag/index.html#" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h1 id="-results">✅ Results&lt;/h1>
+&lt;p>The main result of my work is the
+&lt;a href="https://networkx.org/nx-guides/content/algorithms/dag/index.html#" target="_blank" rel="noopener">topological sort tutorial&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>✅ Corresponding &lt;strong>merged PR:&lt;/strong>
+&lt;a href="https://github.com/networkx/nx-guides/pull/44" target="_blank" rel="noopener">[GSoC contribution] Topological sort notebook&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Furthermore, during the work on DAGs module of NetworkX, I opened several PRs with improvements:&lt;/p>
+&lt;ul>
+&lt;li>✅ &lt;strong>Merged PR&lt;/strong> to improve code base:
+&lt;a href="https://github.com/networkx/networkx/pull/5017" target="_blank" rel="noopener">[GSoC contribution] Improving functions descendants and ancestors in dag.py&lt;/a>&lt;/li>
+&lt;li>✅ &lt;strong>Merged PR&lt;/strong> to improve documentation:
+&lt;a href="https://github.com/networkx/networkx/pull/5019" target="_blank" rel="noopener">[GSoC contribution] Adding examples to docstrings in dag.py&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="-conclusion">🥳 Conclusion&lt;/h1>
+&lt;p>I want to express my deep gratitude to my mentors:
+&lt;a href="https://github.com/ericmjl" target="_blank" rel="noopener">Eric Ma&lt;/a>
+and
+&lt;a href="https://github.com/rossbar" target="_blank" rel="noopener">Ross Barnowski&lt;/a>.
+It was a real pleasure to work with you guys.
+I look forward to further productive cooperation.&lt;/p></description></item><item><title>GSoC 2021 Start</title><link>https://example.com/post/gsoc-2021-start/</link><pubDate>Fri, 16 Jul 2021 18:30:54 +0300</pubDate><guid>https://example.com/post/gsoc-2021-start/</guid><description>&lt;h1 id="-summer-2021">🌞 ️Summer 2021&lt;/h1>
 &lt;p>I am happy to have been accepted to
 &lt;a href="https://summerofcode.withgoogle.com/" target="_blank" rel="noopener">Google Summer of Code 2021&lt;/a>
 with the project
