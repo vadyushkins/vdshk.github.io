@@ -42,7 +42,7 @@ I look forward to further productive cooperation.&lt;/p></description></item><it
 &lt;p>I am happy to have been accepted to
 &lt;a href="https://summerofcode.withgoogle.com/" target="_blank" rel="noopener">Google Summer of Code 2021&lt;/a>
 with the project
-&amp;ldquo;&lt;em>Pedagogical Interactive Notebooks for Algorithms Implemented in &lt;a href="https://networkx.org/" target="_blank" rel="noopener">NetworkX&lt;/a>&lt;/em>&amp;rdquo;.
+&lt;strong>&amp;ldquo;Pedagogical Interactive Notebooks for Algorithms Implemented in &lt;a href="https://networkx.org/" target="_blank" rel="noopener">NetworkX&lt;/a>&amp;quot;&lt;/strong>.
 I will be writing code under the mentorship of
 &lt;a href="https://github.com/ericmjl" target="_blank" rel="noopener">Eric Ma&lt;/a>
 and
@@ -67,23 +67,23 @@ so I have written down the estimated dates for the stages that are important for
 &lt;ul>
 &lt;li>
 &lt;p>✅ &lt;strong>Organizations Announced&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> early March &lt;/u>&lt;/p>
+&lt;p>📅 early March&lt;/p>
 &lt;p>📝 Students can begin discussing project ideas with open source organizations
 that accepted to participate as a mentor organization.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>✅ &lt;strong>Student Application Period&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> end of March — mid-April &lt;/u>&lt;/p>
+&lt;p>📅 end of March — mid-April&lt;/p>
 &lt;p>📝 Students can register and submit their proposals to mentor organizations.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>✅ &lt;strong>Application Review Period&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> mid-April — mid-May &lt;/u>&lt;/p>
+&lt;p>📅 mid-April — mid-May&lt;/p>
 &lt;p>📝 Mentor organizations review and select student proposals.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>✅ &lt;strong>Student Projects Announced&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> at the end of the review period &lt;/u>&lt;/p>
+&lt;p>📅 at the end of the review period&lt;/p>
 &lt;p>📝 Accepted students are paired with a mentor and start planning their projects and milestones.&lt;/p>
 &lt;/li>
 &lt;/ul>
@@ -94,32 +94,32 @@ for what you are going to do for it during the summer.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>✅ &lt;strong>Community Bonding&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> from the moment student projects announced — early June &lt;/u>&lt;/p>
+&lt;p>📅 from the moment student projects announced — early June&lt;/p>
 &lt;p>📝 Students spend a month learning more about their organization&amp;rsquo;s community.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>✅ &lt;strong>Coding, part 1&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> early June — mid-July &lt;/u>&lt;/p>
+&lt;p>📅 early June — mid-July&lt;/p>
 &lt;p>📝 Students work on their Google Summer of Code projects.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>✅ &lt;strong>First Evaluations&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> mid-July &lt;/u>&lt;/p>
+&lt;p>📅 mid-July&lt;/p>
 &lt;p>📝 Mentors and students submit their evaluations of one another.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>✅ &lt;strong>Coding, part 2&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> mid-July — mid-August &lt;/u>&lt;/p>
+&lt;p>📅 mid-July — mid-August&lt;/p>
 &lt;p>📝 Students work on their Google Summer of Code projects.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>✅ &lt;strong>Final Evaluations&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> mid-August &lt;/u>&lt;/p>
+&lt;p>📅 mid-August&lt;/p>
 &lt;p>📝 Students submit their code, project summaries, and final evaluations of their mentors.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>✅ &lt;strong>Results Announced&lt;/strong>&lt;/p>
-&lt;p>📅 &lt;u> end of August &lt;/u>&lt;/p>
+&lt;p>📅 end of August&lt;/p>
 &lt;p>📝 Students are notified of the pass/fail status of their Google Summer of Code projects.&lt;/p>
 &lt;/li>
 &lt;/ul>
