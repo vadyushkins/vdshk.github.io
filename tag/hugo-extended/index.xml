@@ -9,4 +9,22 @@ wget https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_extended_0.
 &lt;p>After that, it is enough to install this package using &lt;a href="https://wiki.debian.org/Teams/Dpkg" target="_blank" rel="noopener">dpkg&lt;/a>:&lt;/p>
 &lt;pre>&lt;code class="language-shell">dpkg --install hugo_extended_0.88.1_Linux-64bit.deb
 &lt;/code>&lt;/pre>
-&lt;p>That&amp;rsquo;s all ✌&lt;/p></description></item></channel></rss>
+&lt;p>That&amp;rsquo;s all ✌&lt;/p></description></item><item><title>Wednesday (my dudes 🐸), September 22, 2021</title><link>https://vdshk.me/daily/2021-09-22/</link><pubDate>Wed, 22 Sep 2021 19:50:25 +0300</pubDate><guid>https://vdshk.me/daily/2021-09-22/</guid><description>&lt;h3 id="let-me-tell-you-about-my-wednesday-">Let me tell you about my Wednesday 🥺👉👈&lt;/h3>
+&lt;p>✅ Reviewed
+&lt;a href="https://github.com/Krekep/formal-lang-course/pull/8" target="_blank" rel="noopener">Complete task 3 #8&lt;/a>,
+&lt;a href="https://github.com/vladislav-miroshnikov/formal-lang-course/pull/3" target="_blank" rel="noopener">Task 3: Constructing a nondeterministic finite automaton from a graph #3&lt;/a>
+and &lt;a href="https://github.com/bozhnyukAlex/formal-lang-course/pull/3" target="_blank" rel="noopener">[Task 3] Graph to nfa function and tests #3&lt;/a>&lt;/p>
+&lt;p>✅ Wrote a funny post (👉 &lt;a href="https://vdshk.me/post/how-to-install-hugo-extended-on-ubuntu-20-04/" target="_blank" rel="noopener">link&lt;/a>)&lt;/p>
+&lt;h3 id="what-good-do-i-want-to-do-tomorrow-">What good do I want to do tomorrow? 🤔&lt;/h3>
+&lt;p>1️⃣ Read the awesome article
+&lt;a href="https://hackernoon.com/lint-lint-and-away-linters-for-the-english-language-70f4b22cc73c" target="_blank" rel="noopener">Lint, Lint and Away! Linters for the English Language&lt;/a>
+and try integrating some of the linters from it into your blog&lt;/p>
+&lt;p>2️⃣ Revise
+&lt;a href="https://github.com/networkx/networkx/blob/main/networkx/algorithms/tests/test_dag.py" target="_blank" rel="noopener">test_dag.py&lt;/a>
+in NetworkX&lt;/p>
+&lt;p>3️⃣ Close issue
+&lt;a href="https://github.com/JetBrains-Research/Genegram/issues/16" target="_blank" rel="noopener">Add more weights #16&lt;/a>
+in Genegram&lt;/p>
+&lt;p>4️⃣ Take a good
+&lt;a href="https://en.wikipedia.org/wiki/MEAN_%28solution_stack%29#See_also" target="_blank" rel="noopener">MERN&lt;/a>
+course&lt;/p></description></item></channel></rss>
