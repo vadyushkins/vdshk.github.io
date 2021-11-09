@@ -180,7 +180,7 @@ Output: 0
 <h2 id=решение>Решение</h2>
 <ul>
 <li>Пусть новые высоты зданий это $grid'$</li>
-<li>Мы хотим максимизировать $\underset{i, j}{\sum}\{grid'[i][j] - grid[i][j]\}$,
+<li>Так как мы хотим максимизировать $\underset{i, j}{\sum}\{grid'[i][j] - grid[i][j]\}$,
 то нам необходимо максимизировать $grid'[i][j]$ для всех $i, j$</li>
 <li>Заметим, что
 <ul>
@@ -190,8 +190,9 @@ Output: 0
 то горизонт города изменится</li>
 </ul>
 </li>
-<li>Значит $\forall i, j: grid'[i][j] \leq \min(\underset{0 \leq k &lt; n}{\max}\{grid[i][k]\}, \underset{0 \leq k &lt; n}{\max}\{grid[k][j]\})$</li>
+<li>Значит $$\forall i, j: grid'[i][j] \leq \min(\underset{0 \leq k &lt; n}{\max}\{grid[i][k]\}, \underset{0 \leq k &lt; n}{\max}\{grid[k][j]\})$$</li>
 <li>Отсюда уже очевидно, что $$grid'[i][j] = \min(\underset{0 \leq k &lt; n}{\max}\{grid[i][k]\}, \underset{0 \leq k &lt; n}{\max}\{grid[k][j]\})$$</li>
+<li>А ответ это $$\underset{i, j}{\sum}\{\min(\underset{0 \leq k &lt; n}{\max}\{grid[i][k]\}, \underset{0 \leq k &lt; n}{\max}\{grid[k][j]\}) - grid[i][j]\}$$</li>
 </ul>
 <details class=spoiler id=spoiler-1>
 <summary>Python</summary>
