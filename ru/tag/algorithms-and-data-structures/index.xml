@@ -363,7 +363,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.105&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1379" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1379&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree" target="_blank" rel="noopener">Find a Corresponding Node of a Binary Tree in a Clone of That Tree&lt;/a>&lt;/td>
 &lt;td style="text-align:right">84.90%&lt;/td>
