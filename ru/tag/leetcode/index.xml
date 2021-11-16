@@ -339,7 +339,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.077&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1501-2000/1769" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1769&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box" target="_blank" rel="noopener">Minimum Number of Operations to Move All Balls to Each Box&lt;/a>&lt;/td>
 &lt;td style="text-align:right">85.80%&lt;/td>
