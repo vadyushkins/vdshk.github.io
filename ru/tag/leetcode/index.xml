@@ -347,7 +347,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.078&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1302" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1302&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/deepest-leaves-sum" target="_blank" rel="noopener">Deepest Leaves Sum&lt;/a>&lt;/td>
 &lt;td style="text-align:right">85.50%&lt;/td>
