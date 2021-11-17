@@ -395,7 +395,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.115&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0501-1000/0763" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">763&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/partition-labels" target="_blank" rel="noopener">Partition Labels&lt;/a>&lt;/td>
 &lt;td style="text-align:right">78.30%&lt;/td>
