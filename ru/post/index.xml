@@ -387,7 +387,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.113&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1282" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1282&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to" target="_blank" rel="noopener">Group the People Given the Group Size They Belong To&lt;/a>&lt;/td>
 &lt;td style="text-align:right">84.70%&lt;/td>
