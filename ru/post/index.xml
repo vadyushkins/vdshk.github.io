@@ -403,7 +403,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.115&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1315" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1315&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent" target="_blank" rel="noopener">Sum of Nodes with Even-Valued Grandparent&lt;/a>&lt;/td>
 &lt;td style="text-align:right">84.60%&lt;/td>
