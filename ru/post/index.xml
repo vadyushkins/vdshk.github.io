@@ -427,7 +427,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.140&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0001-0500/0419" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">419&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/battleships-in-a-board" target="_blank" rel="noopener">Battleships in a Board&lt;/a>&lt;/td>
 &lt;td style="text-align:right">72.10%&lt;/td>
