@@ -299,7 +299,7 @@ return shortUrl;
 &lt;td style="text-align:right">0.913&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0501-1000/0654" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/00654.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">654&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/maximum-binary-tree" target="_blank" rel="noopener">Maximum Binary Tree&lt;/a>&lt;/td>
 &lt;td style="text-align:right">82.30%&lt;/td>
@@ -307,7 +307,7 @@ return shortUrl;
 &lt;td style="text-align:right">0.925&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1476" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01476.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1476&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/subrectangle-queries" target="_blank" rel="noopener">Subrectangle Queries&lt;/a>&lt;/td>
 &lt;td style="text-align:right">88.10%&lt;/td>
@@ -315,7 +315,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.000&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1501-2000/1689" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01689.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1689&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers" target="_blank" rel="noopener">Partitioning Into Minimum Number Of Deci-Binary Numbers&lt;/a>&lt;/td>
 &lt;td style="text-align:right">88.00%&lt;/td>
@@ -323,7 +323,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.003&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1501-2000/1828" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01828.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1828&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle" target="_blank" rel="noopener">Queries on Number of Points Inside a Circle&lt;/a>&lt;/td>
 &lt;td style="text-align:right">86.60%&lt;/td>
@@ -331,7 +331,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.051&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1038" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01038.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1038&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree" target="_blank" rel="noopener">Binary Search Tree to Greater Sum Tree&lt;/a>&lt;/td>
 &lt;td style="text-align:right">83.50%&lt;/td>
@@ -339,7 +339,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.075&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0001-0500/0046" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/00046.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">46&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/permutations" target="_blank" rel="noopener">Permutations&lt;/a>&lt;/td>
 &lt;td style="text-align:right">68.90%&lt;/td>
@@ -347,7 +347,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.077&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1501-2000/1769" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01769.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1769&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box" target="_blank" rel="noopener">Minimum Number of Operations to Move All Balls to Each Box&lt;/a>&lt;/td>
 &lt;td style="text-align:right">85.80%&lt;/td>
@@ -355,7 +355,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.078&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1302" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01302.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1302&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/deepest-leaves-sum" target="_blank" rel="noopener">Deepest Leaves Sum&lt;/a>&lt;/td>
 &lt;td style="text-align:right">85.50%&lt;/td>
@@ -363,7 +363,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.088&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0501-1000/0797" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/00797.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">797&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/all-paths-from-source-to-target" target="_blank" rel="noopener">All Paths From Source to Target&lt;/a>&lt;/td>
 &lt;td style="text-align:right">79.10%&lt;/td>
@@ -371,7 +371,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.105&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1379" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01379.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1379&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree" target="_blank" rel="noopener">Find a Corresponding Node of a Binary Tree in a Clone of That Tree&lt;/a>&lt;/td>
 &lt;td style="text-align:right">84.90%&lt;/td>
@@ -379,7 +379,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.108&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0001-0500/0022" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/00022.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">22&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/generate-parentheses" target="_blank" rel="noopener">Generate Parentheses&lt;/a>&lt;/td>
 &lt;td style="text-align:right">67.50%&lt;/td>
@@ -387,7 +387,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.113&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1282" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01282.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1282&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to" target="_blank" rel="noopener">Group the People Given the Group Size They Belong To&lt;/a>&lt;/td>
 &lt;td style="text-align:right">84.70%&lt;/td>
@@ -395,7 +395,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.115&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0501-1000/0763" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/00763.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">763&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/partition-labels" target="_blank" rel="noopener">Partition Labels&lt;/a>&lt;/td>
 &lt;td style="text-align:right">78.30%&lt;/td>
@@ -403,7 +403,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.115&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1001-1500/1315" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01315.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1315&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent" target="_blank" rel="noopener">Sum of Nodes with Even-Valued Grandparent&lt;/a>&lt;/td>
 &lt;td style="text-align:right">84.60%&lt;/td>
@@ -411,7 +411,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.119&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/1501-2000/1637" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/01637.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">1637&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points" target="_blank" rel="noopener">Widest Vertical Area Between Two Points Containing No Points&lt;/a>&lt;/td>
 &lt;td style="text-align:right">84.00%&lt;/td>
@@ -419,7 +419,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.139&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0001-0500/0078" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/00078.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">78&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/subsets" target="_blank" rel="noopener">Subsets&lt;/a>&lt;/td>
 &lt;td style="text-align:right">67.50%&lt;/td>
@@ -427,7 +427,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.140&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0001-0500/0419" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/00419.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">419&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/battleships-in-a-board" target="_blank" rel="noopener">Battleships in a Board&lt;/a>&lt;/td>
 &lt;td style="text-align:right">72.10%&lt;/td>
@@ -435,7 +435,7 @@ return shortUrl;
 &lt;td style="text-align:right">1.154&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/0501-1000/0894" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://github.com/vdshk/algo/tree/main/LeetCode/00894.js" target="_blank" rel="noopener">Code&lt;/a>&lt;/td>
 &lt;td style="text-align:right">894&lt;/td>
 &lt;td>&lt;a href="https://leetcode.com/problems/all-possible-full-binary-trees" target="_blank" rel="noopener">All Possible Full Binary Trees&lt;/a>&lt;/td>
 &lt;td style="text-align:right">78.40%&lt;/td>
