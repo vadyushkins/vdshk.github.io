@@ -1,0 +1,423 @@
+<!doctype html><html lang=ru>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Wowchemy 5.3.0 for Hugo">
+<meta name=google-site-verification content="9HEn3tXURkbBfEFu5oqb8exgu10j1ZLAMNIWqvSu4l0">
+<meta name=author content="Вадим Абзалов">
+<meta name=description content="Max Increase to Keep City Skyline">
+<link rel=alternate hreflang=ru href=https://vdshk.me/post/leetcode-807/>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<meta name=theme-color content="#1565c0">
+<script src=/js/mathjax-config.js></script>
+<link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
+<script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
+<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
+<link rel=stylesheet href=/css/wowchemy.481af39c39ffd87b2d14f39943e7c723.css>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-207928791-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(a,b){gtag('event','click',{event_category:'outbound',event_label:a,transport_type:'beacon',event_callback:function(){b!=='_blank'&&(document.location=a)}}),console.debug("Outbound link clicked: "+a)}function onClickCallback(a){if(a.target.tagName!=='A'||a.target.host===window.location.host)return;trackOutboundLink(a.target,a.target.getAttribute('target'))}gtag('js',new Date),gtag('config','UA-207928791-1',{}),gtag('set',{cookie_flags:'SameSite=None;Secure'}),document.addEventListener('click',onClickCallback,!1)</script>
+<script>(function(b,d,e,a,g){b[a]=b[a]||[],b[a].push({'gtm.start':(new Date).getTime(),event:'gtm.js'});var f=d.getElementsByTagName(e)[0],c=d.createElement(e),h=a!='dataLayer'?'&l='+a:'';c.async=!0,c.src='https://www.googletagmanager.com/gtm.js?id='+g+h,f.parentNode.insertBefore(c,f)})(window,document,'script','dataLayer','GTM-T9GM69P')</script>
+<link rel=manifest href=/manifest.webmanifest>
+<link rel=icon type=image/png href=/media/icon_hua908ffaee85184b139d79f55f9be504d_127086_32x32_fill_lanczos_center_3.png>
+<link rel=apple-touch-icon type=image/png href=/media/icon_hua908ffaee85184b139d79f55f9be504d_127086_180x180_fill_lanczos_center_3.png>
+<link rel=canonical href=https://vdshk.me/post/leetcode-807/>
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@https://twitter.com/__vdshk">
+<meta property="twitter:creator" content="@https://twitter.com/__vdshk">
+<meta property="og:site_name" content="vdshk blog">
+<meta property="og:url" content="https://vdshk.me/post/leetcode-807/">
+<meta property="og:title" content="LeetCode 807 | vdshk blog">
+<meta property="og:description" content="Max Increase to Keep City Skyline"><meta property="og:image" content="https://vdshk.me/media/icon_hua908ffaee85184b139d79f55f9be504d_127086_512x512_fill_lanczos_center_3.png">
+<meta property="twitter:image" content="https://vdshk.me/media/icon_hua908ffaee85184b139d79f55f9be504d_127086_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="ru">
+<meta property="article:published_time" content="2021-11-09T12:45:16+03:00">
+<meta property="article:modified_time" content="2021-11-09T12:45:16+03:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://vdshk.me/post/leetcode-807/"},"headline":"LeetCode 807","datePublished":"2021-11-09T12:45:16+03:00","dateModified":"2021-11-09T12:45:16+03:00","author":{"@type":"Person","name":"Вадим Абзалов"},"publisher":{"@type":"Organization","name":"vdshk blog","logo":{"@type":"ImageObject","url":"https://vdshk.me/media/icon_hua908ffaee85184b139d79f55f9be504d_127086_192x192_fill_lanczos_center_3.png"}},"description":"Max Increase to Keep City Skyline"}</script>
+<title>LeetCode 807 | vdshk blog</title>
+</head>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=6bf914ef5c8e5ca147a06ea3bd0f02cf>
+<script src=/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
+<aside class=search-modal id=search>
+<div class=container>
+<section class=search-header>
+<div class="row no-gutters justify-content-between mb-3">
+<div class=col-6>
+<h1>Поиск</h1>
+</div>
+<div class="col-6 col-search-close">
+<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
+</div>
+</div>
+<div id=search-box>
+<input name=q id=search-query placeholder="Поиск ..." autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label="Поиск ...">
+</div>
+</section>
+<section class=section-search-results>
+<div id=search-hits>
+</div>
+</section>
+</div>
+</aside>
+<div class=page-header>
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
+<div class=container-xl>
+<div class="d-none d-lg-inline-flex">
+<a class=navbar-brand href=/>vdshk blog</a>
+</div>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Переключить навигацию">
+<span><i class="fas fa-bars"></i></span>
+</button>
+<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+<a class=navbar-brand href=/>vdshk blog</a>
+</div>
+<div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
+<ul class="navbar-nav d-md-inline-flex">
+<li class=nav-item>
+<a class=nav-link href=/#about><span>Обо мне</span></a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/post><span>Блог</span></a>
+</li>
+</ul>
+</div>
+<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+<li class=nav-item>
+<a class="nav-link js-search" href=# aria-label=Поиск><i class="fas fa-search" aria-hidden=true></i></a>
+</li>
+<li class="nav-item dropdown theme-dropdown">
+<a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences">
+<i class="fas fa-moon" aria-hidden=true></i>
+</a>
+<div class=dropdown-menu>
+<a href=# class="dropdown-item js-set-theme-light">
+<span>Light</span>
+</a>
+<a href=# class="dropdown-item js-set-theme-dark">
+<span>Dark</span>
+</a>
+<a href=# class="dropdown-item js-set-theme-auto">
+<span>Automatic</span>
+</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class=page-body>
+<article class=article>
+<div class="article-container pt-3">
+<h1>LeetCode 807</h1>
+<div class=article-metadata>
+<span class=article-date>
+Nov 9, 2021
+</span>
+<span class=middot-divider></span>
+<span class=article-reading-time>
+3 мин. для прочтения
+</span>
+</div>
+</div>
+<div class=article-container>
+<div class=article-style>
+<blockquote>
+<p>🙏 Спасибо LeetCode за замечательную задачу <a href=https://leetcode.com/problems/max-increase-to-keep-city-skyline/ target=_blank rel=noopener>&ldquo;807. Max Increase to Keep City Skyline&rdquo;</a></p>
+</blockquote>
+<details class="toc-inpage d-print-none" open>
+<summary class=font-weight-bold>Содержание</summary>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#задача>Задача</a>
+<ul>
+<li><a href=#ограничения>Ограничения</a></li>
+</ul>
+</li>
+<li><a href=#примеры>Примеры</a></li>
+<li><a href=#решение>Решение</a></li>
+</ul>
+</nav>
+</details>
+<h2 id=задача>Задача</h2>
+<p>Имеется город, состоящий из $n \times n$ блоков, где каждый блок содержит ровно одно
+здание в форме вертикальной квадратной призмы.
+Дана <strong>заиндексированная с 0</strong> матрица целых чисел <code>grid</code>,
+где <code>grid[i][j]</code> - представляет собой <strong>высоту</strong> здания, находящегося
+в блоке на <code>i</code>-ой строке в <code>j</code>-ом столбце города.</p>
+<p><strong>Горизонт города</strong> - это внешний контур города, образованный всеми зданиями,
+есди смотреть на город издалека.
+<strong>Горизонт города</strong> с каждой стороны света может выглядеть по-разному.</p>
+<p>Разрешается увеличивать высоту любого здания на любую величину, но горизонт города
+не должен меняться с любой стороны света.</p>
+<p>От вас требуется вычислить максимальную сумму, на которую может быть увеличена высота
+зданий без изменения горизонта города с любой стороны света.</p>
+<h3 id=ограничения>Ограничения</h3>
+<ul>
+<li><code>n == grid.length</code></li>
+<li>$\forall i \in \{0, \dots, n - 1\}: $ <code>n == grid[i].length</code></li>
+<li>$2 \leq n \leq 50$</li>
+<li>$0 \leq grid[i][j] \leq 100$</li>
+</ul>
+<h2 id=примеры>Примеры</h2>
+<pre><code class=language-text>Input: grid = [ [3, 0, 8, 4],
+                [2, 4, 5, 7],
+                [9, 2, 6, 3],
+                [0, 3, 1, 0] ]
+Output: 35
+`grid` города после максимального возможного увеличения высот всех зданий
+new_grid    = [ [8, 4, 8, 7],
+                [7, 4, 7, 7],
+                [9, 4, 8, 7],
+                [3, 3, 3, 3] ]
+</code></pre>
+<pre><code class=language-text>Input: grid = [[0,0,0],[0,0,0],[0,0,0]]
+Output: 0
+Нельзя увеличить ни одно здание, так как тогда горизонт города изменится.
+</code></pre>
+<h2 id=решение>Решение</h2>
+<ul>
+<li>Пусть новые высоты зданий это $grid'$</li>
+<li>Так как мы хотим максимизировать $\underset{i, j}{\sum}\{grid'[i][j] - grid[i][j]\}$,
+то нам необходимо максимизировать $grid'[i][j]$ для всех $i, j$</li>
+<li>Заметим, что
+<ul>
+<li>$\forall i, j: grid'[i][j] \leq \underset{0 \leq k &lt; n}{\max}\{grid[i][k]\}$</li>
+<li>$\forall i, j: grid'[i][j] \leq \underset{0 \leq k &lt; n}{\max}\{grid[k][j]\}$</li>
+<li>так как если здание станет выше, чем самое высокое здание в его строке или столбце,
+то горизонт города изменится</li>
+</ul>
+</li>
+<li>Значит $$\forall i, j: grid'[i][j] \leq \min(\underset{0 \leq k &lt; n}{\max}\{grid[i][k]\}, \underset{0 \leq k &lt; n}{\max}\{grid[k][j]\})$$</li>
+<li>Отсюда уже очевидно, что $$grid'[i][j] = \min(\underset{0 \leq k &lt; n}{\max}\{grid[i][k]\}, \underset{0 \leq k &lt; n}{\max}\{grid[k][j]\})$$</li>
+<li>А ответ это $$\underset{i, j}{\sum}\{\min(\underset{0 \leq k &lt; n}{\max}\{grid[i][k]\}, \underset{0 \leq k &lt; n}{\max}\{grid[k][j]\}) - grid[i][j]\}$$</li>
+</ul>
+<details class=spoiler id=spoiler-1>
+<summary>Python</summary>
+<p><pre><code class=language-python>class Solution:
+    def maxIncreaseKeepingSkyline(self, grid: List[List[int]]) -&gt; int:
+        row_max = list(map(max, grid))
+        col_max = list(map(max, zip(*grid)))
+
+        return sum(
+            min(row_max[i], col_max[j]) - val
+            for i, row in enumerate(grid)
+            for j, val in enumerate(row)
+        )
+</code></pre>
+</p>
+</details>
+<details class=spoiler id=spoiler-2>
+<summary>C++</summary>
+<p><pre><code class=language-cpp>#include &lt;bits/stdc++.h&gt;
+
+#define len(a) (int)a.size()
+
+using namespace std;
+
+typedef string str;
+
+class Solution {
+public:
+    int maxIncreaseKeepingSkyline(vector&lt;vector&lt;int&gt;&gt;&amp; grid) {
+        int n = len(grid);
+
+        vector&lt;int&gt; row_max(n, -1);
+        vector&lt;int&gt; col_max(n, -1);
+
+        for (int i = 0; i &lt; n; ++i) {
+            for (int j = 0; j &lt; n; ++j) {
+                row_max[i] = max(row_max[i], grid[i][j]);
+                col_max[j] = max(col_max[j], grid[i][j]);
+            }
+        }
+
+        int res = 0;
+
+        for (int i = 0; i &lt; n; ++i) {
+            for (int j = 0; j &lt; n; ++j) {
+                res += min(row_max[i], col_max[j]) - grid[i][j];
+            }
+        }
+
+        return res;
+    }
+};
+</code></pre>
+</p>
+</details>
+<details class=spoiler id=spoiler-3>
+<summary>JavaScript</summary>
+<p><pre><code class=language-javascript>/**
+ * @param {number[][]} grid
+ * @return {number}
+ */
+var maxIncreaseKeepingSkyline = function(grid) {
+    const n = grid.length;
+
+    const row_max = Array(n).fill(-1);
+    const col_max = Array(n).fill(-1);
+
+    for (let i = 0; i &lt; n; ++i) {
+        for (let j = 0; j &lt; n; ++j) {
+            row_max[i] = Math.max(row_max[i], grid[i][j]);
+            col_max[j] = Math.max(col_max[j], grid[i][j]);
+        }
+    }
+
+    let res = 0;
+
+    for (let i = 0; i &lt; n; ++i) {
+        for (let j = 0; j &lt; n; ++j) {
+            res += Math.min(row_max[i], col_max[j]) - grid[i][j];
+        }
+    }
+
+    return res;
+};
+</code></pre>
+</p>
+</details>
+</div>
+<div class=article-tags>
+<a class="badge badge-light" href=/tag/leetcode/>LeetCode</a>
+<a class="badge badge-light" href=/tag/algorithms-and-data-structures/>Algorithms and data structures</a>
+<a class="badge badge-light" href=/tag/greedy/>Greedy</a>
+<a class="badge badge-light" href=/tag/matrix/>Matrix</a>
+</div>
+<div class=share-box aria-hidden=true>
+<ul class=share>
+<li>
+<a href="https://twitter.com/intent/tweet?url=https://vdshk.me/post/leetcode-807/&text=LeetCode%20807" target=_blank rel=noopener class=share-btn-twitter>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/sharer.php?u=https://vdshk.me/post/leetcode-807/&t=LeetCode%20807" target=_blank rel=noopener class=share-btn-facebook>
+<i class="fab fa-facebook"></i>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/shareArticle?url=https://vdshk.me/post/leetcode-807/&title=LeetCode%20807" target=_blank rel=noopener class=share-btn-linkedin>
+<i class="fab fa-linkedin-in"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="media author-card content-widget-hr">
+<a href=https://vdshk.me/><img class="avatar mr-3 avatar-circle" src=/authors/admin/avatar_hu5e40f983f998fd4b7a01d1f7a040da28_70032_270x270_fill_q100_lanczos_center.jpg alt="Вадим Абзалов"></a>
+<div class=media-body>
+<h5 class=card-title><a href=https://vdshk.me/>Вадим Абзалов</a></h5>
+<p class=card-text>Программная инженерия и всё вокруг</p>
+<ul class=network-icon aria-hidden=true>
+<li>
+<a href=https://github.com/vdshk target=_blank rel=noopener>
+<i class="fab fa-github"></i>
+</a>
+</li>
+<li>
+<a href=/www.linkedin.com/in/vdshk>
+<i class="fab fa-linkedin"></i>
+</a>
+</li>
+<li>
+<a href=https://twitter.com/__vdshk target=_blank rel=noopener>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href=https://vk.com/vdshk target=_blank rel=noopener>
+<i class="fab fa-vk"></i>
+</a>
+</li>
+<li>
+<a href=https://t.me/vdshk42 target=_blank rel=noopener>
+<i class="fab fa-telegram"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="article-widget content-widget-hr">
+<h3>Похожие</h3>
+<ul>
+<li><a href=/post/leetcode-535/>LeetCode 535</a></li>
+</ul>
+</div>
+</div>
+</article>
+</div>
+<div class=page-footer>
+<div class=container>
+<footer class=site-footer>
+<p class=powered-by>
+© 2021 Vadim Abzalov
+</p>
+<p class="powered-by copyright-license-text">
+Except as otherwise noted, this work is licensed under <a href=https://creativecommons.org/licenses/by-nc-nd/4.0/>CC BY-NC-ND 4.0</a>
+</p>
+<p class="powered-by footer-license-icons">
+<a href=https://creativecommons.org/licenses/by-nc-nd/4.0 rel="noopener noreferrer" target=_blank aria-label="Creative Commons">
+<i class="fab fa-creative-commons fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-by fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-nc fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-nd fa-2x" aria-hidden=true></i>
+</a>
+</p>
+<p class=powered-by>
+Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.
+</p>
+</footer>
+</div>
+</div>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>Процитировать</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> Копия
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> Скачать
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
+<script src=/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin=anonymous title=mermaid></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/cpp.min.js crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/javascript.min.js crossorigin=anonymous></script>
+<script id=search-hit-fuse-template type=text/x-template>
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script>
+<script src=/ru/js/wowchemy.min.385e80e9e83f301ef54d2f4c72c56252.js></script>
+</body>
+</html>
